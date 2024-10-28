@@ -15,3 +15,5 @@ second_student = Student(220)
 #вивети інормацію про їого зріст
 print(first_student.height)
 print(second_student.height)
+
+print('test')
