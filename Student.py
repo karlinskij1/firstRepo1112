@@ -30,9 +30,9 @@ class Student:
         # помилка, якщо height менший або дорівнює нулю
         self.name = name
         self.surname = surname
-        # 25.10.2006
         self.height = height
         print(f"I am {self.name}")
+
 
     def printStudent(self):
         print(f"Name: {self.name}")
@@ -54,6 +54,7 @@ try:
 
     # створення об'єкта
     first_student = Student("vlad", 'karlinskij', '04.11.2000', 186)
+
     second_student = Student('oleg', 'palkin', '25.5.2025', 220)
 except (TypeError, ValueError) as error:
     logging.exception(error)
