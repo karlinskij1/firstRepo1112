@@ -13,6 +13,7 @@ class Student:
     def __init__(self,name:str, surname:str, birthdate, height=160):
         #  помилка, якщо name не є str
         if(type(name) != str):
+
             raise TypeError(f"Name must be str type. Not a '{type(name)}'")
         # помилка, якщо surname не є str
         if (type(surname) != str):

@@ -1,8 +1,8 @@
-ERROR:2024-11-11 17:33:33,305 - Current date is bigger then birthdate '2024-11-11', '2025-05-25'
-Traceback (most recent call last):
-  File "C:\Users\vlady\PycharmProjects\firstRepo1112\Student.py", line 57, in <module>
-    second_student = Student('oleg', 'palkin', '25.5.2025', 220)
-                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\vlady\PycharmProjects\firstRepo1112\Student.py", line 27, in __init__
-    raise ValueError(f"Current date is bigger then birthdate '{datetime.date.today()}', '{self.birthdate.date() }'")
-ValueError: Current date is bigger then birthdate '2024-11-11', '2025-05-25'
+DEBUG:2024-11-18 15:04:46,127 - Объект Animal создан: Имя=Шарик, Вид=Собака
+ERROR:2024-11-18 15:04:46,127 - Ошибка при создании объекта Animal: Дата рождения 2030-12-30 не может быть в будущем.
+ERROR:2024-11-18 15:04:46,127 - Исключение: Дата рождения 2030-12-30 не может быть в будущем.
+DEBUG:2024-11-18 15:04:46,127 - Информация об объекте Animal: Шарик
+Имя: Шарик
+Вид: Собака
+Дата рождения: 12.05.2015
+Вес: 15.5 кг
